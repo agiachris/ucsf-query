@@ -40,7 +40,7 @@ python main.py --query "<query>" --download-dir <download/path> --num-pages <N>
 
 Here's what the script will do:
 1. It will query the UCSF archive for all documents matching `"<query>"` 
-2. It will download matching documents to the specified download directory `<download/path>`
+2. By default, the script will download all matching documents to your `Downloads/UCSF_Industry_Documents` directory. However, you can use the flag `--download-dir <download/path>` to specify an alternative download directory.
 3. By default, the UCSF server returns 100 documents per page. If `--num-pages` is not specified when calling `main.py`, the script will download the first page of documents (i.e., the first 100 PDFs). If you would like to download e.g., the first three pages of documents (i.e., 300 PDFs), use `--num-pages 3`.
 
 ## License
