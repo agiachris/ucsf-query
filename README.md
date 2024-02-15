@@ -1,6 +1,8 @@
 # ucsf-query
 
-This repository implements a simple python script to query the [UCSF Truth Tobacco Industry Documents Archive](https://www.industrydocuments.ucsf.edu/tobacco/). It will download all PDFs that match the search query.
+This repository implements a simple python script to query the [UCSF Truth Tobacco Industry Documents Archive](https://www.industrydocuments.ucsf.edu/tobacco/). It will download all PDFs that match the search query. 
+
+Correspondence with [Christopher Agia](https://www.chrisagia.com/): `cagia@cs.stanford.edu`.
 
 ## Setup
 
@@ -16,8 +18,7 @@ Follow the installation procedure below to get setup:
 git clone https://github.com/agiachris/ucsf-query.git
 cd ucsf-query
 
-# Install pyenv.
-curl https://pyenv.run | bash 
+# Install pyenv: See instructions @ https://github.com/pyenv/pyenv.
 exec $SHELL          # Restart shell for path changes to take effect.
 pyenv install 3.8    # Install a Python version.
 pyenv local 3.8      # Set Python 3.8 as default for local repository.
